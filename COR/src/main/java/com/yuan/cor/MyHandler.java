@@ -1,7 +1,7 @@
 package com.yuan.cor;
 
 /**
- * 请求处理类，负责处理用户请求
+ * 责任链核心类：请求处理类，负责处理用户请求
  */
 public abstract class MyHandler {
 
@@ -16,9 +16,9 @@ public abstract class MyHandler {
     }
 
     /**
-     * 处理请求的方法
+     * 责任链模式的核心方法：处理请求的方法
      *
-     * @param f 传来请求期望得到的结果，这里以float类型为例
+     * @param f 传入请求期望得到的结果，这里以float类型为例
      */
     public abstract void doHandler(float f);
 

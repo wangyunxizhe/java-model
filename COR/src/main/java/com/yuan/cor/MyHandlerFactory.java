@@ -6,7 +6,7 @@ package com.yuan.cor;
 public class MyHandlerFactory {
 
     /**
-     * 这里可以运用工厂模式来达到更好的编写效果，这里只是简单实现一下
+     * 这里可以运用工厂模式来构建整个责任链的执行顺序
      */
     public static MyHandler createHandler() {
         MyHandler leap1 = new LeapOne();
